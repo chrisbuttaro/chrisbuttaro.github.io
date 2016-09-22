@@ -33,7 +33,10 @@ div{
 	margin-left: auto;
 	margin-right:auto;
 	}
-
+span{
+	background-color:E9E9E9;
+	font-weight:bold;
+    }
  ul{
 width:500px;
 	border-radius: 2%;

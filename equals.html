@@ -1,0 +1,79 @@
+<! DOCTYPE HTML>
+ <HTML>
+		
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"></link>
+			
+		</head>
+		<h2> <a style="text-decoration: none"; href="index.html">
+		&nbsp;Coding with Java </a> </h2>
+		<h1>Equals</h1>
+		 <body>
+		  <p>
+		   <span>=</span> &nbsp;<span> == </span>and <span>.equals()</span> serve three distinctly different functions
+		   in Java.  <span>=</span> is an assignment operator, <span>==</span> is a relationship operator, and <span>.equals()</span> is a method for 
+		   testing the equality of objects.
+		   <br><br>
+		  <span>=  </span>is used to assign a value from an operand on the right to an operand on the left.
+		   One example of this variable declaration.
+		   </p> 
+		   <br>
+		   <div>
+		   int j=10;<br>
+		   boolean y=true;<br>
+		   </div>
+		   <p>
+		   A more straight forward example is changing a variable's value within a script.
+		   <br>
+		   </p>		  
+		    <div>
+		   j=20;<br>
+		   y=false;
+		   </div>
+		   <p>
+		In both examples the value from the right is assigned to the operator on the left.
+		<br>
+		<br>
+		<span> == </span> is a relational operator that tests the relationship of two operands 
+		specifically to see if they are equal. Relational operators return a boolean value of true
+		or false. 
+		</p>
+		<div> 
+		if (x==y){<br>
+		executeFunction();<br>
+		}
+		</div>
+		<p>
+		In this case if x and y have the same value the expression in parens will return true
+		and the function will execute.  Otherwise the expression will return false and the 
+		compiler will skip over the if statement. <br> 
+		<br>
+		<span>.equals()</span> is a method which compares two objects to see if they are the same.  If 
+		the objects have the same state and behavior they are considered to be the same object
+		and .equals() will return true.  If they are different objects .equals() will return false.
+		One use of .equals() is to compare two String objects.
+		<br>
+		</p>
+		<div>
+		String x="A";<br>
+		String y="A";<br>
+		String z="B";<br>
+		x.equals(y) //will return true<br>
+		x.equals(z) //will return false
+		</div>
+		</p>
+		   <ul  style="list-style:none; text-align:center">
+	        <li> <a href="switch.html" >switch vs if/else</a></li>
+	        <li> <a href= "equals.html">Equals</a></li>
+	        <li><a href= "math.html">Math</a></li>
+	        <li><a href= "cast.html">Casting</a></li>
+	        <li><a href= "loops.html">Loops</a></li>
+	        <li><a href= "scanners.html">Scanners</a></li>
+	        <li><a href= "void">Void</a></li>
+	        <li><a href= "methods.html">Methods, Parameters, and Arguments</a></li>
+	          <br>
+	        <li> <a href="equals.html" >Back to Top</a></li>
+	        <li> <a href="index.html"> Home </a><li>  
+	    </ul>
+	 </body>
+	</html>
