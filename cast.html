@@ -1,0 +1,69 @@
+<! DOCTYPE HTML>
+	<HTML>
+		
+		<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"></link>
+			
+		</head>
+		<h2> <a style="text-decoration: none"; href="index.html">
+		&nbsp;Coding with Java </a> </h2>
+		<h1>Casting</h1>
+		<body>
+	     <p>
+		Casting is used to define a variable as a more specified data type of the same
+		hierarchy.  We can cast a variable of type Number to be handled by the compiler 
+		as type Int because Int is a subclass
+		of Number.  However if we try to cast variable of type Int to be treated as a Number
+		the compiler will through an exception.  Casting automatically tells the compiler
+		to preform a runtime check that our variable is defined accordingly if it is not then
+		an exception will also be thrown.  
+		 <br>
+		 </p>
+		<h3>Example 1</h3> 
+		<div>
+		Number x=0;<br>
+		x= (int)3.55; <br>
+		System.out.println(x)// the system will print "3"
+		</div><br>
+		<h3>Example 2</h3>
+		<div>
+		Int x=0;<br>
+		x=(Number)3.55// an exception will be thrown because we cannot cast up the hierarchy.
+		</div>
+		<br>
+		<p>
+		One useful example of casting is in using Math.random() to produce integers. By default
+		Math.random() is defined to produce numbers in the range [0.0, 1.0), but by multipling
+		the value produced by Math.random() and casting it as an integer we can tell
+		the compiler to drop the digits after the decimal thus producing only integers.
+		<br>
+		<h3>Example 3</h3>
+		<div>
+		 &nbsp; a = 1 + (int)( 10*Math.random() );<br>
+		  &nbsp;System.out.println(a);<br> <br>
+		</div>
+		<br>
+		<p>
+		In Example 3 the system will display an integer between 1-10. 
+		
+		<br>
+		<br>
+		  
+		
+		
+		
+		<ul  style="list-style:none; text-align:center">
+	        <li> <a href="switch.html" >switch vs if/else</a></li>
+	        <li> <a href= "equals.html">Equals</a></li>
+	        <li><a href= "math.html">Math.random()</a></li>
+	        <li><a href= "cast.html">Casting</a></li>
+	        <li><a href= "loops.html">Loops</a></li>
+	        <li><a href= "scanners.html">Scanners</a></li>
+	        <li><a href= "void">Void</a></li>
+	        <li><a href= "methods.html">Methods, Parameters, and Arguments</a></li>
+	          <br>
+	        <li> <a href="cast.html" >Back to Top</a></li>
+	        <li> <a href="index.html"> Home </a><li>  
+	    </ul>
+	 </body>
+	</html>
